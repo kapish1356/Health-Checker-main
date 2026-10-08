@@ -1,0 +1,1110 @@
+{
+  "users": [
+    {
+      "id": "usr-admin-1",
+      "name": "System Administrator",
+      "email": "admin@checkhealth.com",
+      "password": "$2b$10$T1zvO2lE.1Sks68cw5a0Ze7/FQzN5PQrm011/.vGuEIgKreJ4faVK",
+      "role": "admin",
+      "phone": "+91 98765 43210",
+      "createdAt": "2026-10-08T10:56:22.182Z"
+    },
+    {
+      "id": "usr-patient-1",
+      "name": "Rahul Verma",
+      "email": "patient@checkhealth.com",
+      "password": "$2b$10$T1zvO2lE.1Sks68cw5a0Ze7/FQzN5PQrm011/.vGuEIgKreJ4faVK",
+      "role": "patient",
+      "phone": "+91 91234 56789",
+      "dob": "1994-06-15",
+      "gender": "Male",
+      "bloodGroup": "B+",
+      "allergies": [
+        "Penicillin",
+        "Dust Mites"
+      ],
+      "chronicConditions": [
+        "Mild Asthma"
+      ],
+      "emergencyContact": {
+        "name": "Pooja Verma (Spouse)",
+        "phone": "+91 98220 11223"
+      },
+      "createdAt": "2026-10-08T10:56:22.183Z"
+    },
+    {
+      "id": "usr-doc-1",
+      "name": "Dr. Sarah Patel",
+      "email": "doctor@checkhealth.com",
+      "password": "$2b$10$T1zvO2lE.1Sks68cw5a0Ze7/FQzN5PQrm011/.vGuEIgKreJ4faVK",
+      "role": "doctor",
+      "phone": "+91 94567 89012",
+      "createdAt": "2026-10-08T10:56:22.183Z"
+    },
+    {
+      "id": "usr-doc-2",
+      "name": "Dr. Ramesh Kumar",
+      "email": "ramesh.cardio@checkhealth.com",
+      "password": "$2b$10$T1zvO2lE.1Sks68cw5a0Ze7/FQzN5PQrm011/.vGuEIgKreJ4faVK",
+      "role": "doctor",
+      "phone": "+91 94567 89013",
+      "createdAt": "2026-10-08T10:56:22.183Z"
+    }
+  ],
+  "specialties": [
+    {
+      "id": "sp-1",
+      "name": "General Physician",
+      "icon": "Stethoscope",
+      "description": "Cold, fever, infections, general health queries, daily checkups",
+      "color": "blue"
+    },
+    {
+      "id": "sp-2",
+      "name": "Cardiologist",
+      "icon": "HeartPulse",
+      "description": "Heart diseases, blood pressure, chest pain, arrhythmias",
+      "color": "rose"
+    },
+    {
+      "id": "sp-3",
+      "name": "Dermatologist",
+      "icon": "Sparkles",
+      "description": "Skin rashes, acne, hair fall, fungal infections, skincare",
+      "color": "amber"
+    },
+    {
+      "id": "sp-4",
+      "name": "Neurologist",
+      "icon": "Brain",
+      "description": "Migraines, nerve disorders, stroke recovery, dizziness, spine",
+      "color": "purple"
+    },
+    {
+      "id": "sp-5",
+      "name": "Orthopedic Specialist",
+      "icon": "Activity",
+      "description": "Joint pain, fractures, arthritis, back pain, sports injuries",
+      "color": "emerald"
+    },
+    {
+      "id": "sp-6",
+      "name": "Gynecologist",
+      "icon": "ShieldPlus",
+      "description": "Women health, pregnancy care, menstrual issues, fertility",
+      "color": "pink"
+    },
+    {
+      "id": "sp-7",
+      "name": "Pediatrician",
+      "icon": "Baby",
+      "description": "Child growth, infant care, vaccinations, childhood diseases",
+      "color": "cyan"
+    },
+    {
+      "id": "sp-8",
+      "name": "Dentist",
+      "icon": "Smile",
+      "description": "Toothache, dental implants, root canal, teeth whitening, hygiene",
+      "color": "teal"
+    },
+    {
+      "id": "sp-9",
+      "name": "Ophthalmologist",
+      "icon": "Eye",
+      "description": "Vision check, cataract, glaucoma, dry eyes, laser surgery",
+      "color": "indigo"
+    },
+    {
+      "id": "sp-10",
+      "name": "Psychiatrist",
+      "icon": "SmilePlus",
+      "description": "Depression, anxiety, sleep disorders, ADHD, mental wellness",
+      "color": "violet"
+    },
+    {
+      "id": "sp-11",
+      "name": "ENT Specialist",
+      "icon": "Ear",
+      "description": "Ear infections, sinusitis, throat irritation, hearing loss",
+      "color": "orange"
+    },
+    {
+      "id": "sp-12",
+      "name": "Endocrinologist",
+      "icon": "Flame",
+      "description": "Diabetes, thyroid imbalances, hormone issues, metabolism",
+      "color": "sky"
+    }
+  ],
+  "doctors": [
+    {
+      "id": "doc-1",
+      "userId": "usr-doc-1",
+      "name": "Dr. Sarah Patel",
+      "qualifications": "MBBS, MD (General Medicine), FICP",
+      "specialty": "General Physician",
+      "specialtyId": "sp-1",
+      "experienceYears": 14,
+      "hospital": "Apollo MedCity & Health Centre",
+      "clinicAddress": "Suite 402, Metro Wellness Tower, Connaught Place, New Delhi",
+      "consultationFee": 650,
+      "onlineFee": 500,
+      "rating": 4.9,
+      "reviewCount": 342,
+      "isVerified": true,
+      "licenseNumber": "MCI/2010/84920",
+      "avatar": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&q=80&w=300",
+      "languages": [
+        "English",
+        "Hindi",
+        "Gujarati"
+      ],
+      "about": "Dr. Sarah Patel is a distinguished senior physician with 14+ years of clinical experience in preventive medicine, chronic disease management, diabetes, and infectious ailments.",
+      "services": [
+        "Comprehensive Health Screenings",
+        "Hypertension Control",
+        "Fever & Infection Care",
+        "Annual Wellness Check"
+      ],
+      "availableDays": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "timeSlots": [
+        "09:00 AM",
+        "10:00 AM",
+        "11:30 AM",
+        "02:00 PM",
+        "03:30 PM",
+        "05:00 PM",
+        "06:30 PM"
+      ]
+    },
+    {
+      "id": "doc-2",
+      "userId": "usr-doc-2",
+      "name": "Dr. Ramesh Kumar",
+      "qualifications": "MBBS, MD, DM (Cardiology), FACC",
+      "specialty": "Cardiologist",
+      "specialtyId": "sp-2",
+      "experienceYears": 18,
+      "hospital": "Max Super Specialty Heart Institute",
+      "clinicAddress": "Department of Cardiology, Max Super Specialty, Saket, New Delhi",
+      "consultationFee": 1200,
+      "onlineFee": 950,
+      "rating": 4.95,
+      "reviewCount": 512,
+      "isVerified": true,
+      "licenseNumber": "MCI/2006/11093",
+      "avatar": "https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&q=80&w=300",
+      "languages": [
+        "English",
+        "Hindi",
+        "Punjabi"
+      ],
+      "about": "Dr. Ramesh Kumar is a leading interventional cardiologist specializing in coronary artery diseases, preventive cardiology, heart rhythm disorders, and post-bypass management.",
+      "services": [
+        "Preventive Cardiology",
+        "ECG & Echo Review",
+        "Hypertension & Cholesterol",
+        "Angina Management"
+      ],
+      "availableDays": [
+        "Monday",
+        "Wednesday",
+        "Friday",
+        "Saturday"
+      ],
+      "timeSlots": [
+        "10:00 AM",
+        "11:00 AM",
+        "12:00 PM",
+        "04:00 PM",
+        "05:30 PM",
+        "07:00 PM"
+      ]
+    },
+    {
+      "id": "doc-3",
+      "userId": "usr-doc-3",
+      "name": "Dr. Ananya Sharma",
+      "qualifications": "MBBS, MD (Dermatology & Venereology)",
+      "specialty": "Dermatologist",
+      "specialtyId": "sp-3",
+      "experienceYears": 9,
+      "hospital": "Aura Skin & Cosmetology Clinic",
+      "clinicAddress": "12th Cross, Indiranagar 100ft Road, Bengaluru",
+      "consultationFee": 800,
+      "onlineFee": 700,
+      "rating": 4.85,
+      "reviewCount": 228,
+      "isVerified": true,
+      "licenseNumber": "KMC/2015/67489",
+      "avatar": "https://images.unsplash.com/photo-1594824813627-2c1a82e1d74c?auto=format&fit=crop&q=80&w=300",
+      "languages": [
+        "English",
+        "Hindi",
+        "Kannada"
+      ],
+      "about": "Dr. Ananya Sharma specializes in clinical dermatology, acne therapeutics, hair fall solutions, psoriasis care, and advanced aesthetic procedures.",
+      "services": [
+        "Acne & Scar Therapy",
+        "Hair Loss Evaluation",
+        "Allergy & Eczema",
+        "Anti-Aging Skincare"
+      ],
+      "availableDays": [
+        "Tuesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "timeSlots": [
+        "11:00 AM",
+        "12:30 PM",
+        "02:30 PM",
+        "04:00 PM",
+        "06:00 PM",
+        "07:30 PM"
+      ]
+    },
+    {
+      "id": "doc-4",
+      "userId": "usr-doc-4",
+      "name": "Dr. Vikram Malhotra",
+      "qualifications": "MBBS, MS (Orthopedics), M.Ch (Joint Replacement)",
+      "specialty": "Orthopedic Specialist",
+      "specialtyId": "sp-5",
+      "experienceYears": 16,
+      "hospital": "Fortis Bone & Joint Hospital",
+      "clinicAddress": "Bannerghatta Road, Opposite IIMB, Bengaluru",
+      "consultationFee": 1000,
+      "onlineFee": 850,
+      "rating": 4.9,
+      "reviewCount": 390,
+      "isVerified": true,
+      "licenseNumber": "KMC/2008/33219",
+      "avatar": "https://images.unsplash.com/photo-1537368910025-700350fe46c7?auto=format&fit=crop&q=80&w=300",
+      "languages": [
+        "English",
+        "Hindi"
+      ],
+      "about": "Dr. Vikram Malhotra is an orthopedic surgeon recognized for knee & hip replacements, arthroscopy, spine rehab, and sports biomechanics.",
+      "services": [
+        "Arthritis & Joint Care",
+        "Sports Injury Rehabilitation",
+        "Spine & Sciatica Therapy",
+        "Fracture Management"
+      ],
+      "availableDays": [
+        "Monday",
+        "Tuesday",
+        "Thursday",
+        "Friday"
+      ],
+      "timeSlots": [
+        "09:30 AM",
+        "11:00 AM",
+        "03:00 PM",
+        "04:30 PM",
+        "06:00 PM"
+      ]
+    },
+    {
+      "id": "doc-5",
+      "userId": "usr-doc-5",
+      "name": "Dr. Meera Nambiar",
+      "qualifications": "MBBS, MD (Pediatrics), DCH",
+      "specialty": "Pediatrician",
+      "specialtyId": "sp-7",
+      "experienceYears": 11,
+      "hospital": "Rainbow Children’s Health Centre",
+      "clinicAddress": "Banjara Hills Road No 2, Hyderabad",
+      "consultationFee": 750,
+      "onlineFee": 600,
+      "rating": 4.92,
+      "reviewCount": 410,
+      "isVerified": true,
+      "licenseNumber": "TSMC/2013/55412",
+      "avatar": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&q=80&w=300",
+      "languages": [
+        "English",
+        "Hindi",
+        "Malayalam",
+        "Telugu"
+      ],
+      "about": "Compassionate pediatric specialist caring for infants, toddlers, and adolescents. Expert in newborn growth, childhood nutrition, and vaccination routines.",
+      "services": [
+        "Immunization Schedule",
+        "Growth & Milestone Tracking",
+        "Childhood Asthma",
+        "Newborn Nutrition"
+      ],
+      "availableDays": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Saturday"
+      ],
+      "timeSlots": [
+        "09:00 AM",
+        "10:30 AM",
+        "12:00 PM",
+        "04:00 PM",
+        "05:30 PM",
+        "07:00 PM"
+      ]
+    },
+    {
+      "id": "doc-6",
+      "userId": "usr-doc-6",
+      "name": "Dr. Rajesh Deshmukh",
+      "qualifications": "MBBS, MD (Neurology), DM (Neuro)",
+      "specialty": "Neurologist",
+      "specialtyId": "sp-4",
+      "experienceYears": 20,
+      "hospital": "Kokilaben Dhirubhai Ambani Hospital",
+      "clinicAddress": "Four Bungalows, Andheri West, Mumbai",
+      "consultationFee": 1500,
+      "onlineFee": 1200,
+      "rating": 4.96,
+      "reviewCount": 615,
+      "isVerified": true,
+      "licenseNumber": "MMC/2004/09124",
+      "avatar": "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&q=80&w=300",
+      "languages": [
+        "English",
+        "Hindi",
+        "Marathi"
+      ],
+      "about": "Senior neurological consultant with two decades of experience treating complex migraines, epilepsy, Parkinson’s disease, vertigo, and neuropathy.",
+      "services": [
+        "Migraine & Headache Clinic",
+        "Epilepsy Management",
+        "Parkinson’s & Tremors",
+        "Neuropathy Treatment"
+      ],
+      "availableDays": [
+        "Tuesday",
+        "Thursday",
+        "Saturday"
+      ],
+      "timeSlots": [
+        "10:00 AM",
+        "11:30 AM",
+        "03:00 PM",
+        "04:30 PM",
+        "06:00 PM"
+      ]
+    }
+  ],
+  "labPackages": [
+    {
+      "id": "pkg-1",
+      "title": "Comprehensive Full Body Health Checkup",
+      "subtitle": "Includes 85 Essential Biomarkers for Complete Health Assessment",
+      "originalPrice": 3999,
+      "discountPrice": 1499,
+      "testsCount": 85,
+      "sampleType": "Blood & Urine (10-12 hrs fasting required)",
+      "reportTimeHours": 24,
+      "isPopular": true,
+      "category": "Full Body",
+      "includes": [
+        "Complete Blood Count (CBC - 24 Parameters)",
+        "Comprehensive Lipid Profile (Cholesterol, HDL, LDL, Triglycerides)",
+        "Liver Function Test (LFT - 12 Parameters)",
+        "Kidney Function Test (KFT - BUN, Creatinine, Uric Acid)",
+        "Fasting Blood Sugar (Glucose)",
+        "HbA1c (3-Month Glycated Hemoglobin)",
+        "Thyroid Profile (Total T3, T4, TSH)",
+        "Vitamin D3 (25-Hydroxy) & Vitamin B12",
+        "Urine Routine & Microscopic Examination"
+      ],
+      "description": "Ideal preventive package designed for annual wellness checkups. Evaluates cardiac health, metabolic state, organ functions, and vital nutritional deficiencies."
+    },
+    {
+      "id": "pkg-2",
+      "title": "Advanced Heart & Cardiac Risk Profile",
+      "subtitle": "Targeted assessment for cardiovascular risk, lipid abnormalities & inflammation",
+      "originalPrice": 2800,
+      "discountPrice": 1249,
+      "testsCount": 42,
+      "sampleType": "Blood (12 hrs fasting)",
+      "reportTimeHours": 24,
+      "isPopular": false,
+      "category": "Heart Health",
+      "includes": [
+        "Lipid Profile Comprehensive",
+        "High Sensitivity C-Reactive Protein (hs-CRP)",
+        "Apolipoprotein A1 & B",
+        "Serum Homocysteine",
+        "Blood Glucose Fasting",
+        "Electrolytes Panel (Sodium, Potassium, Chloride)"
+      ],
+      "description": "Designed specifically for individuals with family history of cardiovascular disease, hypertension, or elevated cholesterol."
+    },
+    {
+      "id": "pkg-3",
+      "title": "Active Diabetes & Metabolic Care Package",
+      "subtitle": "In-depth blood sugar evaluation, organ protection & glycation markers",
+      "originalPrice": 1999,
+      "discountPrice": 799,
+      "testsCount": 30,
+      "sampleType": "Blood & Urine (Fasting & Post-Prandial)",
+      "reportTimeHours": 12,
+      "isPopular": false,
+      "category": "Diabetes",
+      "includes": [
+        "HbA1c (Glycosylated Hemoglobin)",
+        "Fasting Blood Glucose",
+        "Post Prandial Blood Glucose",
+        "Microalbuminuria (Urine Albumin/Creatinine Ratio)",
+        "Serum Creatinine & eGFR",
+        "Lipid Profile"
+      ],
+      "description": "Crucial for monitoring glycemic control, kidney safety, and microvascular health in diabetic or pre-diabetic patients."
+    },
+    {
+      "id": "pkg-4",
+      "title": "Women’s Vitality & Hormone Health Package",
+      "subtitle": "Tailored for hormonal balance, bone density, anemia & thyroid vitality",
+      "originalPrice": 3499,
+      "discountPrice": 1699,
+      "testsCount": 55,
+      "sampleType": "Blood & Urine",
+      "reportTimeHours": 24,
+      "isPopular": true,
+      "category": "Women Health",
+      "includes": [
+        "Thyroid Complete Profile (TSH, Free T3, Free T4)",
+        "Ferritin & Iron Deficiency Profile",
+        "Vitamin D3 & Calcium Total",
+        "CBC with ESR",
+        "Estrogen & Progesterone Overview",
+        "Hormone Panel (LH, FSH, Prolactin optional add-on)",
+        "Urine Routine Analysis"
+      ],
+      "description": "Specialized checkup addressing fatigue, irregular cycles, hair thinning, bone wellness, and metabolic balance for women."
+    },
+    {
+      "id": "pkg-5",
+      "title": "Essential Vitamin & Immunity Booster Panel",
+      "subtitle": "Detect severe B12, D3, Iron & Zinc deficiencies causing fatigue & low energy",
+      "originalPrice": 2200,
+      "discountPrice": 899,
+      "testsCount": 15,
+      "sampleType": "Blood",
+      "reportTimeHours": 12,
+      "isPopular": false,
+      "category": "Vitamins",
+      "includes": [
+        "Vitamin D3 (25-OH Cholecalciferol)",
+        "Vitamin B12 (Cyanocobalamin)",
+        "Serum Ferritin",
+        "Serum Calcium & Phosphorus",
+        "Total Iron Binding Capacity (TIBC)"
+      ],
+      "description": "Pinpoint essential micronutrient gaps that drain stamina, immunity, and concentration."
+    }
+  ],
+  "labTests": [
+    {
+      "id": "test-1",
+      "name": "Complete Blood Count (CBC with ESR)",
+      "price": 299,
+      "fastingRequired": false,
+      "tat": "6 Hours",
+      "category": "Hematology",
+      "description": "Measures RBCs, WBCs, Platelets, Hemoglobin, and inflammation markers."
+    },
+    {
+      "id": "test-2",
+      "name": "HbA1c (Glycated Hemoglobin)",
+      "price": 399,
+      "fastingRequired": false,
+      "tat": "6 Hours",
+      "category": "Diabetes",
+      "description": "Reflects your average blood glucose levels over the past 2 to 3 months."
+    },
+    {
+      "id": "test-3",
+      "name": "Lipid Profile Comprehensive",
+      "price": 499,
+      "fastingRequired": true,
+      "tat": "12 Hours",
+      "category": "Cardiology",
+      "description": "Assesses Total Cholesterol, HDL, LDL, VLDL, and Triglycerides."
+    },
+    {
+      "id": "test-4",
+      "name": "Thyroid Function Test (T3, T4, TSH)",
+      "price": 349,
+      "fastingRequired": false,
+      "tat": "12 Hours",
+      "category": "Endocrinology",
+      "description": "Checks overall thyroid gland activity and metabolic hormone balance."
+    },
+    {
+      "id": "test-5",
+      "name": "Liver Function Test (LFT)",
+      "price": 449,
+      "fastingRequired": true,
+      "tat": "12 Hours",
+      "category": "Gastroenterology",
+      "description": "Evaluates liver enzymes (SGOT, SGPT, ALP), Bilirubin, and Proteins."
+    },
+    {
+      "id": "test-6",
+      "name": "Kidney Function Test (KFT / RFT)",
+      "price": 449,
+      "fastingRequired": false,
+      "tat": "12 Hours",
+      "category": "Nephrology",
+      "description": "Tests Urea, Creatinine, Uric Acid, BUN, and Glomerular Filtration Rate."
+    },
+    {
+      "id": "test-7",
+      "name": "Vitamin D3 (25-Hydroxy)",
+      "price": 699,
+      "fastingRequired": false,
+      "tat": "24 Hours",
+      "category": "Vitamins",
+      "description": "Key test for bone health, immune function, and fatigue diagnosis."
+    },
+    {
+      "id": "test-8",
+      "name": "Vitamin B12 Level",
+      "price": 599,
+      "fastingRequired": false,
+      "tat": "24 Hours",
+      "category": "Vitamins",
+      "description": "Important for nerve health, brain function, and red blood cell production."
+    }
+  ],
+  "medicines": [
+    {
+      "id": "med-1",
+      "brandName": "Paracetamol 650 (Dolo 650 / Calpol)",
+      "genericName": "Paracetamol (Acetaminophen)",
+      "dosageForm": "Tablet",
+      "strength": "650 mg",
+      "category": "Analgesic & Antipyretic",
+      "prescriptionRequired": false,
+      "intendedUses": "Relief of mild to moderate pain (headache, body ache, muscle soreness) and reduction of fever.",
+      "precautions": "Do not exceed 4000mg in 24 hours. Avoid alcohol consumption while taking this medication. Consult doctor if fever persists over 3 days.",
+      "sideEffects": "Generally very safe when taken as directed. Rare: allergic skin rash, liver toxicity with overdose.",
+      "storage": "Store in a cool, dry place away from direct sunlight (below 25°C). Keep out of reach of children.",
+      "lastUpdated": "2026-03-01"
+    },
+    {
+      "id": "med-2",
+      "brandName": "Glucophage / Glycomet 500",
+      "genericName": "Metformin Hydrochloride",
+      "dosageForm": "Sustained Release Tablet",
+      "strength": "500 mg",
+      "category": "Antidiabetic (Biguanide)",
+      "prescriptionRequired": true,
+      "intendedUses": "First-line therapy for type 2 diabetes mellitus to improve insulin sensitivity and lower glucose.",
+      "precautions": "Take with meals to minimize stomach upset. Regular monitoring of kidney and liver functions is advised.",
+      "sideEffects": "Nausea, stomach upset, diarrhea, metallic taste. Very rare: lactic acidosis.",
+      "storage": "Store at room temperature away from excessive moisture.",
+      "lastUpdated": "2026-02-15"
+    },
+    {
+      "id": "med-3",
+      "brandName": "Lipitor / Atorva 10",
+      "genericName": "Atorvastatin Calcium",
+      "dosageForm": "Film-coated Tablet",
+      "strength": "10 mg",
+      "category": "Lipid-Lowering Agent (Statin)",
+      "prescriptionRequired": true,
+      "intendedUses": "Lowers LDL (\"bad\") cholesterol and triglycerides, reducing risk of stroke, heart attack, and cardiovascular events.",
+      "precautions": "Take once daily in the evening. Avoid large amounts of grapefruit juice. Notify doctor if unexplained muscle tenderness occurs.",
+      "sideEffects": "Mild muscle ache, digestive disturbances, slight elevation in liver transaminases.",
+      "storage": "Store below 30°C in moisture-resistant blister packs.",
+      "lastUpdated": "2026-01-20"
+    },
+    {
+      "id": "med-4",
+      "brandName": "Augmentin 625 Duo",
+      "genericName": "Amoxicillin + Potassium Clavulanate",
+      "dosageForm": "Oral Tablet",
+      "strength": "500 mg + 125 mg",
+      "category": "Broad-Spectrum Antibiotic",
+      "prescriptionRequired": true,
+      "intendedUses": "Bacterial respiratory infections, sinus infections, urinary tract infections, and skin/soft tissue infections.",
+      "precautions": "Must complete full prescribed course even if symptoms improve early. Inform doctor of any penicillin allergies.",
+      "sideEffects": "Mild diarrhea, nausea, oral thrush, occasional skin hives.",
+      "storage": "Keep in airtight container away from moisture.",
+      "lastUpdated": "2026-03-10"
+    },
+    {
+      "id": "med-5",
+      "brandName": "Pan 40 / Pantocid",
+      "genericName": "Pantoprazole Sodium",
+      "dosageForm": "Gastro-resistant Tablet",
+      "strength": "40 mg",
+      "category": "Proton Pump Inhibitor (PPI)",
+      "prescriptionRequired": true,
+      "intendedUses": "Gastroesophageal reflux disease (GERD), acid reflux, heartburn, and peptic ulcer prophylaxis.",
+      "precautions": "Best taken 30-60 minutes before breakfast with a glass of water.",
+      "sideEffects": "Headache, dry mouth, mild abdominal discomfort.",
+      "storage": "Store in cool and dry environment protected from light.",
+      "lastUpdated": "2026-02-28"
+    },
+    {
+      "id": "med-6",
+      "brandName": "Zyrtec / Cetzine 10",
+      "genericName": "Cetirizine Dihydrochloride",
+      "dosageForm": "Tablet",
+      "strength": "10 mg",
+      "category": "Antihistamine",
+      "prescriptionRequired": false,
+      "intendedUses": "Allergic rhinitis, sneezing, runny nose, watery eyes, and allergic skin hives/urticaria.",
+      "precautions": "May cause mild drowsiness in sensitive individuals. Avoid operating heavy machinery or driving after taking.",
+      "sideEffects": "Drowsiness, dry mouth, tiredness.",
+      "storage": "Store between 15°C and 30°C.",
+      "lastUpdated": "2026-03-05"
+    }
+  ],
+  "appointments": [
+    {
+      "id": "apt-1791457541308",
+      "appointmentCode": "CHK-88968",
+      "userId": "usr-patient-1",
+      "patientName": "Rahul Verma",
+      "patientAge": 30,
+      "patientGender": "Male",
+      "patientPhone": "+91 91234 56789",
+      "doctorId": "doc-1",
+      "doctorName": "Dr. Sarah Patel",
+      "doctorSpecialty": "General Physician",
+      "doctorAvatar": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&q=80&w=300",
+      "consultationType": "online",
+      "date": "2026-10-15",
+      "timeSlot": "09:00 AM",
+      "status": "completed",
+      "paymentStatus": "paid",
+      "amount": 500,
+      "paymentId": "pay_sim_1791457541308",
+      "symptomsNotes": "Routine follow up",
+      "meetingRoomId": "room-chk-88968",
+      "createdAt": "2026-10-08T11:05:41.308Z",
+      "consultationSummary": "Routine follow up",
+      "completedAt": "2026-10-08T11:08:16.019Z"
+    },
+    {
+      "id": "apt-101",
+      "appointmentCode": "CHK-89201",
+      "userId": "usr-patient-1",
+      "patientName": "Rahul Verma",
+      "patientAge": 31,
+      "patientGender": "Male",
+      "patientPhone": "+91 91234 56789",
+      "doctorId": "doc-1",
+      "doctorName": "Dr. Sarah Patel",
+      "doctorSpecialty": "General Physician",
+      "doctorAvatar": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&q=80&w=300",
+      "consultationType": "online",
+      "date": "2026-10-10",
+      "timeSlot": "10:00 AM",
+      "status": "confirmed",
+      "paymentStatus": "paid",
+      "amount": 500,
+      "paymentId": "pay_sim_9201948",
+      "symptomsNotes": "Mild seasonal throat irritation and routine wellness blood report review.",
+      "meetingRoomId": "room-chk-89201",
+      "createdAt": "2026-10-08T09:30:00.000Z"
+    },
+    {
+      "id": "apt-102",
+      "appointmentCode": "CHK-78312",
+      "userId": "usr-patient-1",
+      "patientName": "Rahul Verma",
+      "patientAge": 31,
+      "patientGender": "Male",
+      "patientPhone": "+91 91234 56789",
+      "doctorId": "doc-2",
+      "doctorName": "Dr. Ramesh Kumar",
+      "doctorSpecialty": "Cardiologist",
+      "doctorAvatar": "https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&q=80&w=300",
+      "consultationType": "in-person",
+      "date": "2026-09-20",
+      "timeSlot": "11:00 AM",
+      "status": "completed",
+      "paymentStatus": "paid",
+      "amount": 1200,
+      "paymentId": "pay_sim_1102934",
+      "symptomsNotes": "Annual preventive cardiovascular check and resting ECG review.",
+      "consultationSummary": "Normal sinus rhythm. Blood pressure 122/80 mmHg. Encouraged continued cardiovascular exercise and low sodium diet.",
+      "createdAt": "2026-09-18T14:15:00.000Z"
+    }
+  ],
+  "prescriptions": [
+    {
+      "id": "rx-1791457696019",
+      "appointmentId": "apt-1791457541308",
+      "doctorId": "doc-1",
+      "doctorName": "Dr. Sarah Patel",
+      "patientId": "usr-patient-1",
+      "patientName": "Rahul Verma",
+      "date": "2026-10-15",
+      "diagnosis": "Routine follow up",
+      "medicines": [
+        {
+          "name": "Paracetamol 650mg",
+          "dosage": "1 tablet",
+          "frequency": "Twice daily after food",
+          "duration": "3 Days"
+        },
+        {
+          "name": "Cetirizine 10mg",
+          "dosage": "1 tablet",
+          "frequency": "At bedtime",
+          "duration": "5 Days"
+        }
+      ],
+      "doctorAdvice": "Stay well-hydrated, take prescribed medications after meals, and rest.",
+      "followUpDate": ""
+    },
+    {
+      "id": "rx-201",
+      "appointmentId": "apt-102",
+      "doctorId": "doc-2",
+      "doctorName": "Dr. Ramesh Kumar",
+      "doctorQualifications": "MBBS, MD, DM (Cardiology)",
+      "patientId": "usr-patient-1",
+      "patientName": "Rahul Verma",
+      "date": "2026-09-20",
+      "diagnosis": "Routine Cardiovascular Preventive Clearance - Normal Status",
+      "medicines": [
+        {
+          "name": "CoQ10 + Omega 3 Complex",
+          "dosage": "1 capsule",
+          "frequency": "Once daily after breakfast",
+          "duration": "30 Days",
+          "instructions": "Take with full glass of water"
+        },
+        {
+          "name": "Vitamin D3 60,000 IU",
+          "dosage": "1 capsule",
+          "frequency": "Once weekly on Sundays",
+          "duration": "8 Weeks",
+          "instructions": "Take after heavy meal"
+        }
+      ],
+      "doctorAdvice": "Maintain 35 mins daily brisk walking. Hydrate with 2.5 - 3.0 Liters of water daily. Repeat lipid profile in 12 months.",
+      "followUpDate": "2027-09-20"
+    }
+  ],
+  "labBookings": [
+    {
+      "id": "lab-bk-1791458949615",
+      "bookingCode": "LAB-47805",
+      "userId": "usr-patient-1",
+      "patientName": "Rahul Verma",
+      "patientPhone": "+91 91234 56789",
+      "packageId": "pkg-1",
+      "testId": null,
+      "packageName": "Comprehensive Full Body Health Checkup",
+      "collectionType": "home",
+      "address": "Flat 401, Green Meadows, Bengaluru - 560038",
+      "date": "2026-10-09",
+      "timeSlot": "07:30 AM - 08:30 AM",
+      "amount": 1499,
+      "paymentStatus": "paid",
+      "status": "sample_scheduled",
+      "phlebotomistName": "Designated Certified Phlebotomist",
+      "createdAt": "2026-10-08T11:29:09.615Z"
+    },
+    {
+      "id": "lab-bk-1791457942595",
+      "bookingCode": "LAB-22907",
+      "userId": "usr-patient-1",
+      "patientName": "Rahul Verma",
+      "patientPhone": "+91 91234 56789",
+      "packageId": "pkg-5",
+      "testId": null,
+      "packageName": "Essential Vitamin & Immunity Booster Panel",
+      "collectionType": "home",
+      "address": "Flat 401, Green Meadows, Bengaluru - 560038",
+      "date": "2026-10-09",
+      "timeSlot": "07:30 AM - 08:30 AM",
+      "amount": 899,
+      "paymentStatus": "paid",
+      "status": "sample_scheduled",
+      "phlebotomistName": "Designated Certified Phlebotomist",
+      "createdAt": "2026-10-08T11:12:22.595Z"
+    },
+    {
+      "id": "lab-bk-1",
+      "bookingCode": "LAB-55102",
+      "userId": "usr-patient-1",
+      "patientName": "Rahul Verma",
+      "patientPhone": "+91 91234 56789",
+      "packageId": "pkg-1",
+      "packageName": "Comprehensive Full Body Health Checkup (85 Biomarkers)",
+      "collectionType": "home",
+      "address": "Flat 401, Green Meadows Apartments, Indiranagar, Bengaluru - 560038",
+      "date": "2026-10-12",
+      "timeSlot": "07:30 AM - 08:30 AM",
+      "amount": 1499,
+      "paymentStatus": "paid",
+      "status": "sample_scheduled",
+      "phlebotomistName": "Anil Rao (Phlebotomist ID: PH-901)",
+      "createdAt": "2026-10-08T10:00:00.000Z"
+    }
+  ],
+  "medicalRecords": [
+    {
+      "id": "rec-rx-1791457696019",
+      "userId": "usr-patient-1",
+      "title": "Prescription by Dr. Sarah Patel",
+      "category": "Prescription",
+      "recordDate": "2026-10-15",
+      "doctorName": "Dr. Sarah Patel",
+      "hospitalName": "CheckHealth Telehealth",
+      "fileName": "Prescription_CHK-88968.pdf",
+      "fileType": "application/pdf",
+      "fileSize": "240 KB",
+      "fileUrl": "/uploads/sample_prescription.pdf",
+      "notes": "Routine follow up",
+      "createdAt": "2026-10-08T11:08:16.019Z"
+    },
+    {
+      "id": "rec-1",
+      "userId": "usr-patient-1",
+      "title": "Annual Blood & Lipid Panel Report 2026",
+      "category": "Lab Report",
+      "recordDate": "2026-09-20",
+      "doctorName": "Dr. Ramesh Kumar",
+      "hospitalName": "Apollo Diagnostics Laboratory",
+      "fileName": "Annual_Blood_Report_RahulVerma.pdf",
+      "fileType": "application/pdf",
+      "fileSize": "1.4 MB",
+      "fileUrl": "/uploads/sample_lab_report.pdf",
+      "notes": "All markers within normal limits. Fasting glucose: 92 mg/dL, Total Cholesterol: 178 mg/dL.",
+      "createdAt": "2026-09-21T08:00:00.000Z"
+    },
+    {
+      "id": "rec-2",
+      "userId": "usr-patient-1",
+      "title": "Cardiology Consultation Prescription",
+      "category": "Prescription",
+      "recordDate": "2026-09-20",
+      "doctorName": "Dr. Ramesh Kumar",
+      "hospitalName": "Max Super Specialty Heart Institute",
+      "fileName": "Prescription_Dr_Ramesh_Kumar.pdf",
+      "fileType": "application/pdf",
+      "fileSize": "340 KB",
+      "fileUrl": "/uploads/sample_prescription.pdf",
+      "notes": "CoQ10 and Vitamin D3 recommendations.",
+      "createdAt": "2026-09-20T12:00:00.000Z"
+    },
+    {
+      "id": "rec-3",
+      "userId": "usr-patient-1",
+      "title": "COVID-19 Booster Vaccination Certificate",
+      "category": "Vaccination",
+      "recordDate": "2024-05-10",
+      "doctorName": "National Immunization Program",
+      "hospitalName": "Apollo Vaccination Hub",
+      "fileName": "Covid_Vaccine_Certificate.pdf",
+      "fileType": "application/pdf",
+      "fileSize": "520 KB",
+      "fileUrl": "/uploads/sample_vaccine.pdf",
+      "notes": "Final precautionary dose administered.",
+      "createdAt": "2024-05-10T15:00:00.000Z"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "rev-1",
+      "doctorId": "doc-1",
+      "userId": "usr-patient-1",
+      "patientName": "Rahul V.",
+      "rating": 5,
+      "date": "2026-09-22",
+      "comment": "Dr. Sarah Patel is exceptionally attentive. She listened patiently to all my queries and explained the treatment plan with immense clarity. Highly recommended!"
+    },
+    {
+      "id": "rev-2",
+      "doctorId": "doc-2",
+      "userId": "usr-patient-2",
+      "patientName": "Priya N.",
+      "rating": 5,
+      "date": "2026-09-18",
+      "comment": "Dr. Ramesh Kumar is a true master in cardiology. Made me feel completely reassured and provided actionable diet and lifestyle tips."
+    },
+    {
+      "id": "rev-3",
+      "doctorId": "doc-3",
+      "userId": "usr-patient-3",
+      "patientName": "Vikram S.",
+      "rating": 5,
+      "date": "2026-09-14",
+      "comment": "My skin condition improved within 5 days of starting the prescribed ointment. The clinic was clean and the online follow-up was seamless."
+    }
+  ],
+  "healthArticles": [
+    {
+      "id": "art-1",
+      "title": "10 Proven Habits to Lower High Blood Pressure Naturally",
+      "category": "Heart Health",
+      "readTime": "4 min read",
+      "author": "Dr. Ramesh Kumar, Cardiologist",
+      "image": "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?auto=format&fit=crop&q=80&w=400",
+      "summary": "Explore clinically validated dietary modifications, sodium moderation, magnesium-rich foods, and stress-reduction techniques that help maintain healthy vascular tone.",
+      "publishDate": "Oct 04, 2026"
+    },
+    {
+      "id": "art-2",
+      "title": "Understanding Your HbA1c & Fasting Glucose Reports",
+      "category": "Diabetes & Metabolism",
+      "readTime": "6 min read",
+      "author": "Dr. Sarah Patel, General Physician",
+      "image": "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80&w=400",
+      "summary": "A step-by-step patient guide to decoding blood sugar laboratory metrics, pre-diabetes cutoffs, and daily dietary glycemic index management.",
+      "publishDate": "Sep 28, 2026"
+    },
+    {
+      "id": "art-3",
+      "title": "Vitamin D3 Deficiency: Symptoms, Causes & Safe Supplementation",
+      "category": "Wellness & Nutrition",
+      "readTime": "5 min read",
+      "author": "Dr. Ananya Sharma, Dermatologist",
+      "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&q=80&w=400",
+      "summary": "Why over 70% of urban professionals suffer from low Vitamin D, the impact on immune function and bone density, and recommended sun exposure guidelines.",
+      "publishDate": "Sep 15, 2026"
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "log-1791462170123-jgs5",
+      "action": "USER_LOGIN",
+      "userEmail": "admin@checkhealth.com",
+      "ip": "127.0.0.1",
+      "details": "Successful login for role admin",
+      "timestamp": "2026-10-08T12:22:50.123Z"
+    },
+    {
+      "id": "log-1791458949617-lv4c",
+      "action": "LAB_BOOKING_CREATED",
+      "userEmail": "patient@checkhealth.com",
+      "ip": "127.0.0.1",
+      "details": "Booked lab package LAB-47805: Comprehensive Full Body Health Checkup",
+      "timestamp": "2026-10-08T11:29:09.617Z"
+    },
+    {
+      "id": "log-1791457942597-v61x",
+      "action": "LAB_BOOKING_CREATED",
+      "userEmail": "patient@checkhealth.com",
+      "ip": "127.0.0.1",
+      "details": "Booked lab package LAB-22907: Essential Vitamin & Immunity Booster Panel",
+      "timestamp": "2026-10-08T11:12:22.597Z"
+    },
+    {
+      "id": "log-1791457813075-z2ql",
+      "action": "USER_LOGIN",
+      "userEmail": "patient@checkhealth.com",
+      "ip": "127.0.0.1",
+      "details": "Successful login for role patient",
+      "timestamp": "2026-10-08T11:10:13.075Z"
+    },
+    {
+      "id": "log-1791457805243-1ofk",
+      "action": "USER_LOGIN",
+      "userEmail": "ramesh.cardio@checkhealth.com",
+      "ip": "127.0.0.1",
+      "details": "Successful login for role doctor",
+      "timestamp": "2026-10-08T11:10:05.243Z"
+    },
+    {
+      "id": "log-1791457782543-ji99",
+      "action": "USER_LOGIN",
+      "userEmail": "admin@checkhealth.com",
+      "ip": "127.0.0.1",
+      "details": "Successful login for role admin",
+      "timestamp": "2026-10-08T11:09:42.543Z"
+    },
+    {
+      "id": "log-1791457735199-4qwg",
+      "action": "USER_LOGIN",
+      "userEmail": "doctor@checkhealth.com",
+      "ip": "127.0.0.1",
+      "details": "Successful login for role doctor",
+      "timestamp": "2026-10-08T11:08:55.199Z"
+    },
+    {
+      "id": "log-1791457696019-r0nl",
+      "action": "CONSULTATION_COMPLETED",
+      "userEmail": "doctor@checkhealth.com",
+      "ip": "127.0.0.1",
+      "details": "Doctor completed consult CHK-88968",
+      "timestamp": "2026-10-08T11:08:16.019Z"
+    },
+    {
+      "id": "log-1791457679808-n4es",
+      "action": "USER_LOGIN",
+      "userEmail": "doctor@checkhealth.com",
+      "ip": "127.0.0.1",
+      "details": "Successful login for role doctor",
+      "timestamp": "2026-10-08T11:07:59.808Z"
+    },
+    {
+      "id": "log-1791457541308-j64t",
+      "action": "APPOINTMENT_BOOKED",
+      "userEmail": "patient@checkhealth.com",
+      "ip": "127.0.0.1",
+      "details": "Booked online consultation with Dr. Sarah Patel for 2026-10-15 at 09:00 AM",
+      "timestamp": "2026-10-08T11:05:41.308Z"
+    },
+    {
+      "id": "log-1791457541277-pnlc",
+      "action": "USER_LOGIN",
+      "userEmail": "patient@checkhealth.com",
+      "ip": "127.0.0.1",
+      "details": "Successful login for role patient",
+      "timestamp": "2026-10-08T11:05:41.277Z"
+    },
+    {
+      "id": "log-1",
+      "action": "USER_LOGIN",
+      "userEmail": "patient@checkhealth.com",
+      "ip": "127.0.0.1",
+      "timestamp": "2026-10-08T10:56:22.183Z",
+      "details": "Successful authentication"
+    },
+    {
+      "id": "log-2",
+      "action": "SYSTEM_BOOT",
+      "userEmail": "SYSTEM",
+      "ip": "127.0.0.1",
+      "timestamp": "2026-10-08T10:56:22.183Z",
+      "details": "Healthcare platform initialized with security policies"
+    }
+  ],
+  "supportTickets": [
+    {
+      "id": "tkt-1",
+      "ticketNumber": "SUP-4019",
+      "userId": "usr-patient-1",
+      "userEmail": "patient@checkhealth.com",
+      "userName": "Rahul Verma",
+      "subject": "Query regarding home sample collection timing",
+      "message": "Hello, can the phlebotomist arrive between 7:30 AM and 8:00 AM on Monday?",
+      "category": "Lab Booking",
+      "status": "resolved",
+      "reply": "Confirmed! Phlebotomist Anil Rao has been notified for a 7:30 AM arrival window.",
+      "createdAt": "2026-10-07T11:20:00.000Z"
+    }
+  ]
+}
